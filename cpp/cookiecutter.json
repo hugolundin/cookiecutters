@@ -1,0 +1,11 @@
+{
+    "full_name": "",
+    "email": "",
+    "github_username": "",
+    "project_name": "",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "",
+    "version": "0.1.0",
+    "create_author_file": "y",
+    "open_source_license": ["MIT", "BSD", "ISCL", "Apache Software License 2.0", "Not open source"]
+}
