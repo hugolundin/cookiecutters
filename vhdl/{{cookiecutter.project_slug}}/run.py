@@ -24,9 +24,9 @@ if __name__ == "__main__":
     project.enable_location_preprocessing()
 
     root = dirname(__file__)
-    lock = project.add_library('{{cookiecutter.project_name}}');
-    lock.add_source_files(join(root, 'src', '*.vhd'))
-    lock.add_source_files(join(root, 'sim', '*.vhd'))
+    entity = project.add_library('{{cookiecutter.project_name}}');
+    entity.add_source_files(join(root, 'src', '*.vhd'))
+    entity.add_source_files(join(root, 'sim', '*.vhd'))
 
     if args.wave:
         project.main(post_run=show)
