@@ -12,7 +12,7 @@ $ cookiecutter https://github.com/hugolundin/cookiecutters --directory="<cookiec
 
 ## TODO
 
-There is a thing in Cookiecutter called [hooks](https://cookiecutter.readthedocs.io/en/latest/advanced/hooks.html) that allow you to run scripts before/after the project is generated. This could be useful for [initializing a git repository](https://stackoverflow.com/a/38557845/8522840). Unfortunately hooks are project specific so we would need to duplicate the script in every directory.
+There is a thing in Cookiecutter called [hooks](https://cookiecutter.readthedocs.io/en/latest/advanced/hooks.html) that allow you to run scripts before/after the project is generated. This could be useful for [initializing a git repository](https://stackoverflow.com/a/38557845/8522840). Unfortunately hooks are project specific so we would need to duplicate them in every directory.
 
 Here are some cookiecutters I would like to add in the future:
 
