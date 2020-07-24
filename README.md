@@ -9,3 +9,21 @@ Cookiecutter 1.7 added support for [organizing cookiecutters in directories](htt
 ```console
 $ cookiecutter https://github.com/hugolundin/cookiecutters --directory="<cookiecutter>"
 ```
+
+## TODO
+
+There is a thing in Cookiecutter called [hooks](https://cookiecutter.readthedocs.io/en/latest/advanced/hooks.html) that allow you to run scripts before/after the project is generated. This could be used to [initialize a git repository](https://stackoverflow.com/a/38557845/8522840). Unfortunately hooks are project specific so we would need to duplicate the script in all cookiecutters.
+
+Here are some cookiecutters I would like to add in the future:
+
+- [ ] C (executable)
+- [ ] C (library)
+- [ ] C using Epoll.
+- [ ] C using Kqueue.
+- [ ] C using Ragel for parsing.
+- [ ] Python
+- [ ] Arduino with a seperate core in C.
+- [ ] Rust
+- [ ] Erlang
+- [ ] Pandoc
+- [ ] LaTeX (with plugins?)
