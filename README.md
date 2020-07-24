@@ -27,3 +27,6 @@ Here are some cookiecutters I would like to add in the future:
 - [ ] Erlang
 - [ ] Pandoc
 - [ ] LaTeX (with plugins?)
+- [ ] Barebones STM32
+- [ ] FreeRTOS STM32
+- [ ] Verilog
