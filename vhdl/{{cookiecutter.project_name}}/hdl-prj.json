@@ -1,0 +1,8 @@
+{
+    "options": {
+        "ghdl_analysis": [
+            "--std=08",
+            "-Pvunit_out/ghdl/libraries/vunit_lib"
+        ]
+    }
+}
