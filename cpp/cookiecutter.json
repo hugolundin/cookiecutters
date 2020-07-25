@@ -4,7 +4,6 @@
     "github_username": "",
     "project_name": "",
     "kind": ["executable", "library"],
-    "tests": "y",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "project_short_description": "",
     "version": "0.1.0",
