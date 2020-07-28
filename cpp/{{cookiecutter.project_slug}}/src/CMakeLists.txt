@@ -11,7 +11,7 @@ add_executable(
     main.cpp
 )
 
-link_libraries(main PUBLIC {{cookiecutter.project_slug}})
+target_link_libraries(main PUBLIC {{cookiecutter.project_slug}})
 
 target_include_directories(
     {{cookiecutter.project_slug}}
