@@ -12,12 +12,10 @@ endif()
 
 include_directories(hdl)
 include_directories(test)
-include_directories(simulation)
-
 
 add_executable(
     main
-    simulation/main.cpp
+    test/main.cpp
 )
 
 verilate(
